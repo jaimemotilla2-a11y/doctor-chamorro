@@ -1,0 +1,41 @@
+@media(max-width:992px){
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding-top:150px;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+    .hero h1{
+        font-size:45px;
+    }
+
+    .glass-card{
+        width:100%;
+        max-width:400px;
+    }
+
+    nav{
+        display:none;
+    }
+}
+
+@media(max-width:600px){
+
+    section{
+        padding:80px 5%;
+    }
+
+    .hero h1{
+        font-size:35px;
+    }
+
+    .contact-buttons{
+        flex-direction:column;
+    }
+
+}
